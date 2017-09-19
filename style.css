@@ -1,0 +1,112 @@
+* {
+  box-sizing: border-box;
+}
+
+#board {
+  margin: 0 auto;
+  border:1px solid black;
+  width:50vw;
+  height:50vw;
+  border-radius: 50%;
+  position:relative;
+}
+
+.inside-stuff {
+  position:absolute;
+}
+
+.little-div {
+  top:0%;
+  left:50%;
+  height:4%;
+  width:.1%;
+  border: 1px solid black;
+  transform-origin: 50% 1250%;
+}
+
+.div1 {
+  transform: rotate(30deg);
+}
+
+.div2 {
+  transform: rotate(60deg);
+}
+
+.div3 {
+  transform: rotate(90deg);
+}
+
+.div4 {
+  transform: rotate(120deg);
+}
+
+.div5 {
+  transform: rotate(150deg);
+}
+
+.div6 {
+  transform: rotate(180deg);
+}
+
+.div7 {
+  transform: rotate(210deg);
+}
+
+.div8 {
+  transform: rotate(240deg);
+}
+
+.div9 {
+  transform: rotate(270deg);
+}
+
+.div10 {
+  transform: rotate(300deg);
+}
+
+.div11 {
+  transform: rotate(330deg);
+}
+
+.div12 {
+  transform: rotate(360deg);
+}
+
+#hours-needle {
+  top:20%;
+  left:48.5%;
+  height:30%;
+  width:3%;
+  background-color: black;
+  transform-origin: 50% 100%;
+}
+
+#minutes-needle {
+  top:10%;
+  left:49%;
+  height:40%;
+  width:2%;
+  background-color: black;
+  transform-origin: 50% 100%;
+}
+
+#seconds-needle {
+  top:0;
+  left:49.5%;
+  height:50%;
+  width:1%;
+  background-color: black;
+  transform-origin: 50% 100%;
+}
+
+#little-pin {
+  top:48%;
+  left:48%;
+  height:4%;
+  width:4%;
+  border-radius: 50%;
+  background-color: black;
+}
+
+
+
